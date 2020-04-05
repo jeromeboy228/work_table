@@ -10,7 +10,6 @@
 <body>
 
     <?php
-    //127.0.0.1:3306
     $fd = fopen("text.odt", "w");
     include "no_push.php";
     $connect = mysqli_connect($host, $user, $password, $db);
